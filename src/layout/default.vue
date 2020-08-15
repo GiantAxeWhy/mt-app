@@ -1,14 +1,14 @@
 <template>
     <div class="page-default">
       <el-container>
-        <el-header>
+        <el-header height="">
         <my-header />
       </el-header>
         <el-main>
-          Main
+          <router-view></router-view>
         </el-main>
-        <el-footer>
-          Footer
+        <el-footer height="">
+       <my-footer/>
         </el-footer>
       </el-container>
     </div>
@@ -16,10 +16,11 @@
 
 <script>
   import myHeader from '@/components/header/index.vue';
-
+  import MyFooter from '@/components/footer/index.vue'
     export default {
      components:{
-       myHeader
+       myHeader,
+       MyFooter
      }
 
     }
