@@ -54,4 +54,13 @@ DFS/BFS
 如何发现内存泄漏
 
 
+手撕：
+封装ajax
+封装bind
+封装防抖节流
+手写Promise
+手写React Hooks
+手写Webpack Loader、Plugin
+手写MVC、MVVM、React、模块加载器
+
 总结项目难点
